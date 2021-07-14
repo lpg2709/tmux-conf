@@ -32,7 +32,7 @@ function printc(){
 
 function check_execution(){
 	if [ ! "$?" -eq "0" ];then
-		printc "Execution error!\n" "e"
+		printc " ... Error!\n" "e"
 		if [ "$1" = "exit" ];then
 			printc "Exiting ...\n" "l"
 			exit 1
@@ -43,10 +43,10 @@ function check_execution(){
 
 }
 
-printc "\nCopy .tmux.conf to $HOME/.tmux.conf ...\n\n" "i"
-# Copy .tmux.conf to $HOME
-curl -fLo ~/.tmux.conf https://raw.githubusercontent.com/lpg2709/tmux-conf/master/.tmux.conf
+printc "\nCopy .tmux.conf to $HOME/.tmux.conf ..." "i"
 printc "\nExecuting curl" "i"
+# Copy .tmux.conf to $HOME
+curl -fLo ~/.tmux.conf https://raw.githubusercontent.com/lpg2709/tmux-conf/master/.tmux.conf -s > /dev/null
 check_execution "exit"
 
 printc "Finished ...\n" "s"
