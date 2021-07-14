@@ -8,6 +8,6 @@ Require:
 Just copy and paste this command:
 
 ```sh
-bash -c  "$(wget -qO- https://git.io/lpg2709-tmux-config)"
+bash -c  "$(wget -qO- https://git.io/https://git.io/JCFyy)"
 ```
 
