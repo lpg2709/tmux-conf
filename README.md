@@ -8,6 +8,6 @@ Require:
 Just copy and paste this command:
 
 ```sh
-bash -c  "$(wget -qO- https://git.io/JCFyy)"
+bash -c  "$(wget -qO- https://git.io/JCbIh)"
 ```
 
