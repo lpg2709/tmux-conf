@@ -45,7 +45,7 @@ function check_execution(){
 
 printc "\nCopy .tmux.conf to $HOME/.tmux.conf ...\n\n" "i"
 # Copy .tmux.conf to $HOME
-curl -fLo ~/.tmux.conf https://google.com
+curl -fLo ~/.tmux.conf https://raw.githubusercontent.com/lpg2709/tmux-conf/master/.tmux.conf
 printc "\nExecuting curl" "i"
 check_execution "exit"
 
