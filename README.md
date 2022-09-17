@@ -1,5 +1,7 @@
 # My personal tmux configuration
 
+> Not used anymore, transferred to https://github.com/lpg2709/dotfiles
+
 Require:
 
 - [tmux](https://github.com/tmux/tmux/wiki)
